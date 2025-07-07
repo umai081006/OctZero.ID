@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="product.js" defer></script>
+
+  <title>OctZero.Apparel</title>
+
+</head>
+
+<body>
+  <!-- HEADER
+
+    <nav class="navbar"> 
+      <div class="logo>OctZero</div>
+      <div class="hamburger" onclick="toogleMenu()">☰</div>
+      <ul class="Nav-links" id="navLinks">
+        <li><a href="index.html" class="hover">Home</a></li>
+        
+        <li class="dropdown">
+         <a href="Product.html" class="active">Product</a>
+         <ul class="dropdown-menu">
+            <li><a href="T-Shirt.html">T-Shirt</a></li>
+            <li><a href="Crewneck.html">Crewneck</a></li>
+            <li><a href="#">Hoodie</a></li>
+         </ul>
+        </li>
+
+        <li><a href="About.html" class="hover">About</a></li>
+        <li><a href="Contact.html" class="hover">Contact</a></li>
+        <li><img src="logo.jpeg" alt="..."></li>
+      </ul>
+    </nav>
+  </div> -->
+
+   <!-- HEADER -->
+ <header>
+  <nav class="navbar">
+    <div class="logo">OctZero</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+  <li><a href="index.html">Home</a></li>
+  <li class="dropdown">
+    <a href="Product.html">Product ▾</a>
+    <ul class="dropdown-menu">
+      <li><a href="T-Shirt.html">T-Shirt</a></li>
+      <li><a href="Crewneck.html">Crewneck</a></li>
+      <li><a href="T-Shirt.html">Hoodie</a></li>
+    </ul>
+  </li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+</ul>
+
+  </nav>
+</header>
+
+  <section class="banner-slider">
+  <div class="slide-container">
+    <img src="flyer_hd.png" alt="Slide 1" class="slide active">
+    <img src="ambasador_edit.png" alt="Slide 2" class="slide">
+    <img src="diskon_hd2.png" alt="Slide 3" class="slide">
+  </div>
+
+  <div class="nav-arrow prev">&#10094;</div>
+  <div class="nav-arrow next">&#10095;</div>
+
+  <div class="slide-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+
+  <!-- PRODUK -->
+ <main class="product-grid">
+  <div id="productPopup" class="product-popup">
+    <div class="popup-content">
+      <span class="close-btn">&times;</span>
+      <img src="artikel2_front.png" alt="Detail Produk" />
+      <h2>Nama Produk</h2>
+      <p>Deskripsi lengkap produk di sini. Material, ukuran, dll.</p>
+      <button>Tambahkan ke Keranjang</button>
+    </div>
+  </div>
+
+  
+  <div class="product-card">
+    <img src="artikel1_front.jpeg" alt="T-Shirt">
+    <h2>T-Shirt OctZero x MCR Design 1</h2>
+    <p>Desain minimalis untuk tampilan santai. Tersedia dalam berbagai ukuran.</p>
+    <button onclick="location.href='T-Shirt.html'" type="button" class="detail-btn">Detail produk</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="artikel2_front.png" alt="Crewneck Dummy">
+    <h2>T-Shirt OctZero x MCR Design 2</h2>
+    <p>Hangat dan stylish. Cocok untuk cuaca dingin maupun gaya harian.</p>
+    <button onclick="location.href='T-Shirt.html'" class="detail-btn">Detail Produk</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Crewneck.png" alt="Hoodie Dummy">
+    <h2>Crewneck OctZero x Quote GYM</h2>
+    <p>Material lembut dan nyaman. Didesain untuk kenyamanan penuh.</p>
+    <button onclick="location.href='Crewneck.html'" class="detail-btn">Detail Produk</button>
+  </div>
+</main>
+
+
+    <!-- Footer CTA -->
+  <section style="text-align: center; padding: 50px 20px; background-color: #222831; color: white;">
+    <h2 style="font-size: 2rem;">Bersama Kami, Bangun Cerita Lewat Fashion</h2>
+    <p style="max-width: 600px; margin: 20px auto;">
+      Follow Instagram kami @octzero.apparel untuk lihat kisah dan koleksi terbaru kami.
+    </p>
+    <button class="btn2" style="padding: 12px 25px; font-size: 1rem; background-color: white; color: #222831; border: none; border-radius: 5px; cursor: pointer;"><a href="https://www.instagram.com/__08yzz/">Gabung Sekarang</a></button>
+  </section>
+  </div>
+</div>
+
+</body>
+</html>
